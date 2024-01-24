@@ -2,7 +2,7 @@
 from homeassistant.components.sensor import ENTITY_ID_FORMAT
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 from . import WellbeingDataUpdateCoordinator
-from .api import Appliance, ApplianceEntity
+from .api_models import Appliance, ApplianceEntity
 
 from .const import DEFAULT_NAME
 from .const import DOMAIN

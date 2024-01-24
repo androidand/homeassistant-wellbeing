@@ -6,7 +6,7 @@ import math
 from homeassistant.components.fan import FanEntity, FanEntityFeature
 from homeassistant.util.percentage import percentage_to_ranged_value, ranged_value_to_percentage
 from . import WellbeingDataUpdateCoordinator
-from .api import Mode
+from .api_models import Mode
 from .const import DOMAIN
 from .const import FAN
 from .entity import WellbeingEntity

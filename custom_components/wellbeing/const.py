@@ -15,7 +15,7 @@ BINARY_SENSOR = "binary_sensor"
 SENSOR = "sensor"
 SWITCH = "switch"
 FAN = "fan"
-SWITCH = "switch" 
+SWITCH = "switch"
 PLATFORMS = [SENSOR, FAN, BINARY_SENSOR, SWITCH]
 
 # Configuration and options

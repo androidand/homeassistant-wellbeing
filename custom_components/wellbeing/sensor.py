@@ -1,7 +1,7 @@
 """Sensor platform for Wellbeing."""
 from typing import cast
 
-from .api import ApplianceSensor
+from .api_models import ApplianceSensor
 from .const import DOMAIN
 from .const import SENSOR
 from .entity import WellbeingEntity
